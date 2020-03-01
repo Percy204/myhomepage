@@ -1,0 +1,51 @@
+.img {
+    background-image: url("yellow.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    background-position: center;
+    background-size: cover;
+}
+
+.bl {
+    background-color: black;
+    background-attachment: fixed;
+    height: 100%;
+    width: 70%;
+    margin: auto;
+}
+
+.logo {
+    border-radius: 12px;
+    width: 300;
+    height: 300;
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.button {
+    color: white;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 12px;
+    width: 39%;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 25px;
+    transition: width 0.5s;
+}
+
+.button:hover{
+    width: 200px;
+}
+
+a:active, a:hover, a:visited, a:link{
+    color: white;
+    text-decoration: none;
+}
